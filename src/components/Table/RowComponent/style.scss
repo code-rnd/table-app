@@ -1,0 +1,15 @@
+.row {
+  height: 40px;
+
+  transition: .5s all;
+
+  box-sizing: border-box;
+
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #b2b2b2;
+
+  transition: .5s all;
+}

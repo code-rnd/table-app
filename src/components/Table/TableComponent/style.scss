@@ -1,0 +1,17 @@
+.table {
+  height: 100%;
+  width: 100%;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    tr {
+
+      border: 2px solid #b2b2b2;
+      td {
+        border: 1px solid #b2b2b2;
+      }
+    }
+  }
+}
