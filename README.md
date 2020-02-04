@@ -2,7 +2,7 @@
 
 # Развернуть фронт локально
 <ul>
-  <li>склонировать ветку <code>dev</code></li>
+  <li>Склонируйте ветку <code>dev</code></li>
   <li><code>npm install</code></li>
   <li><code>npm start</code></li>
   <li>Откройте http://localhost:3000, чтобы просмотреть проект в браузере.</li>
