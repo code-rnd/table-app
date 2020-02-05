@@ -3,6 +3,10 @@ export const searchItemUtil = (data, value) => {
     let flag = false;
     let result = [];
 
+    if(!value || value === '' || value === ' ') {
+        return data
+    }
+
     data.map(obj => {
         Object.keys(obj).map(key => {
             if (obj[key].toString().toLowerCase() === value.toLowerCase()) {

@@ -3,7 +3,7 @@ import TextFieldComponent from "./TextFieldComponent";
 import {generateCarObj} from "../../../utils/Table/generateCarObj";
 
 import './style.scss';
-import {checkForEmptiness} from "../../../utils/Table/ checkForEmptiness";
+import {checkForEmptiness} from "../../../utils/Table/checkForEmptiness";
 
 export default function ModalWindowComponent(props) {
 
@@ -31,7 +31,7 @@ export default function ModalWindowComponent(props) {
 
     const getAddForm = () => {
 
-        // возвращаю, ключ и вэлью хука из текстфилда
+        // возвращаю ключ и вэлью хука из текстфилда
         // в хук Модального окна, обновляя локальное значение объекта "car"
         const getValueHook = (key, value) => {
             setCarAdd({...isCarAdd, ...{[key]: value}});

@@ -13,7 +13,6 @@ export default function CellComponent(props) {
             {
                 value
             }
-
             {
                 car ? <MenuConfigContainer car={car}/> : ''
             }

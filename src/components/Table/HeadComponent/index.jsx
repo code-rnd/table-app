@@ -1,8 +1,6 @@
 import React from "react";
 import CellComponent from "../CellComponent";
 
-import './style.scss';
-
 export default function HeadComponent(props) {
 
     const {characteristic} = props;
